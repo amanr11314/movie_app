@@ -1,16 +1,28 @@
-# movie_app
+# movie_app 
 
-A new Flutter project.
+A new Flutter project based on TMDB API
 
-## Getting Started
+# Goal:
+ - Learning RiverPod
+ - Securing API KEY
+ - Making http request using Dio
 
-This project is a starting point for a Flutter application.
+# Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+ - Get your TMDB API key from [TMDB Website](https://www.themoviedb.org/)
+ - Create a file called ```.env``` in root directory of this project
+ - Put your API key in it as:
+ ```
+    SECRET_API_KEY=YOUR_API_KEY_HERE
+ ```
+ - You are ready to run the app now.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Thanks to TMDB for providing this API.
+<div class="attribute tmdb"> <img src="tmdb_logo.svg" width="250" title="Home Tab"> </div>
+
+# App in action:
+<div class="row">
+      <img src="screen_record.gif" width="250" title="app in live running mode">
+      <img src="screenshot_1.png" width="250" title="App Screenshot 1">     
+</div>
